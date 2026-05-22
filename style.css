@@ -1,0 +1,20 @@
+body { background-color: whitesmoke;font-family: Arial, sans-serif;}
+
+.name {color: rgb(124, 124, 124); font-size: 39px; font-weight: bold;}
+
+.id { color: black; font-size: 42px; }
+
+p { font-size: 25px;}
+
+ol li {font-size: 30px;}
+p2 { color: rgb(148, 148, 148); font-size: 28px; }
+p3 { color: rgb(151, 146, 168); font-size: 28px; }
+.food-title {
+    color: rgb(148, 148, 148);
+    font-size: 28px;
+}
+
+.food-list {
+    color: rgb(151, 146, 168);
+    font-size: 28px;
+}
