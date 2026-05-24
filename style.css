@@ -1,20 +1,67 @@
-body { background-color: whitesmoke;font-family: Arial, sans-serif;}
-
-.name {color: rgb(124, 124, 124); font-size: 39px; font-weight: bold;}
-
-.id { color: black; font-size: 42px; }
-
-p { font-size: 25px;}
-
-ol li {font-size: 30px;}
-p2 { color: rgb(148, 148, 148); font-size: 28px; }
-p3 { color: rgb(151, 146, 168); font-size: 28px; }
-.food-title {
-    color: rgb(148, 148, 148);
-    font-size: 28px;
+body {
+    background-color: #1e1e1e;
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0;
 }
 
-.food-list {
-    color: rgb(151, 146, 168);
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 24px;
+}
+
+.card {
+    background: #2a2a2a;
+    border: 1px solid #444;
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.name {
+    font-size: 38px;
+    color: white;
+    margin-bottom: 8px;
+}
+
+.id {
     font-size: 28px;
+    color: #ccc;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.section-title {
+    color: #aaa;
+    margin-bottom: 10px;
+}
+
+.skills-title {
+    color: cyan;
+    font-size: 40px;
+    margin-top: 0;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 10px;
+}
+
+.skills-list li {
+    background: #3a3a3a;
+    padding: 10px 12px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.profile-img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 16px;
+    display: block;
+    margin-top: 20px;
 }
