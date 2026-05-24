@@ -20,7 +20,7 @@ body {
 }
 
 .name {
-    font-size: 38px;
+    font-size: 35px;
     color: white;
     margin-bottom: 8px;
 }
@@ -38,8 +38,8 @@ body {
 }
 
 .skills-title {
-    color: cyan;
-    font-size: 40px;
+    color: #d6d6d6;
+    font-size: 32px;
     margin-top: 0;
 }
 
@@ -53,9 +53,8 @@ body {
 
 .skills-list li {
     background: #3a3a3a;
-    padding: 10px 12px;
-    border-radius: 10px;
-    text-align: center;
+    color: white;
+    transition: 0.3s;
 }
 
 .profile-img {
@@ -64,4 +63,26 @@ body {
     border-radius: 16px;
     display: block;
     margin-top: 20px;
+}
+.profile-img {
+    width: 250px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+p {
+    color: white;
+}
+:hover 
+.btn1 {
+    background-color: gray;
+    color: white;
+}
+
+.skills-list li:hover {
+    background: #4b4b4b;
+    transform: translateY(-3px);
+}
+.contact-title {
+    color: #979797;
+    font-size: 30px;
 }
